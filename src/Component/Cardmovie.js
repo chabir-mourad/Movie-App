@@ -1,8 +1,9 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import Rate from "./Rate";
+import WithLoader from './withLoader'
 
-export default function Cardmovie(props) {
+ function Cardmovie(props) {
   return (
       <div className="cards">
         {props.cards
@@ -26,3 +27,4 @@ export default function Cardmovie(props) {
   
   );
 }
+export default WithLoader(Cardmovie);

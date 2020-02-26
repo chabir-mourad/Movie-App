@@ -17,7 +17,7 @@ export default class Search extends Component {
   //   }
 
   render() {
-    const { rating } = this.state;
+   
     return (
       <div className="search">
         <div className="input_search">
